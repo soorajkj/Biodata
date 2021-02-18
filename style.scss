@@ -207,12 +207,12 @@ body header {
     grid-gap: 20px;
     justify-items: center;
     .template-card {
-      // background-color: var(--color-secondray);
+      background-color: var(--color-secondray);
       overflow: hidden;
       position: relative;
       border-radius: 5px;
       width: 220px;
-      height: auto;
+      height: 100%;
       border: 1px solid var(--color-dark-secondary);
       &:hover {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.712);
@@ -382,7 +382,7 @@ footer {
       height: auto;
       img {
         width: 100%;
-        height: auto;
+        height: 100%;
       }
     }
   }
@@ -469,7 +469,7 @@ footer {
       height: auto;
       img {
         width: 100%;
-        height: auto;
+        height: 100%;
       }
     }
   }

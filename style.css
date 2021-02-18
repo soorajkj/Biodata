@@ -251,11 +251,12 @@ body header nav ul li .hvr-underline-from-left:hover:before {
 }
 
 .templates .template-wrapper .template-card {
+  background-color: var(--color-secondray);
   overflow: hidden;
   position: relative;
   border-radius: 5px;
   width: 220px;
-  height: auto;
+  height: 100%;
   border: 1px solid var(--color-dark-secondary);
 }
 
@@ -487,7 +488,7 @@ footer {
   }
   .templates .template-wrapper .template-card img {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 }
 
@@ -591,7 +592,7 @@ footer {
   }
   .templates .template-wrapper .template-card img {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
