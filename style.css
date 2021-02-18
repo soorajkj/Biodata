@@ -251,7 +251,6 @@ body header nav ul li .hvr-underline-from-left:hover:before {
 }
 
 .templates .template-wrapper .template-card {
-  background-color: var(--color-secondray);
   overflow: hidden;
   position: relative;
   border-radius: 5px;
@@ -312,7 +311,7 @@ body header nav ul li .hvr-underline-from-left:hover:before {
 
 .templates .template-wrapper img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .templates .template-wrapper .template-card:hover:before,

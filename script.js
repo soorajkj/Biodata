@@ -34,26 +34,28 @@ const mobileNav = document.querySelector('header nav');
 const body = document.querySelector('body');
 let isOpen = false
 
-hamBurger.addEventListener('click',()=>{
-    if(!isOpen){
+const navfun = () =>{
+   if(!isOpen){
         hamBurger.classList.add('openbars');
         mobileNav.style.display = "block"
         body.style.overflow = "hidden"
-        body.style.overflow = "hidden";
         isOpen = true;
     }
     else{
         hamBurger.classList.remove('openbars');
         mobileNav.style.display = "none"
         body.style.overflow = "auto"
-        body.style.overflow = "auto";
         isOpen = false;
     }
+}
+
+hamBurger.addEventListener('click',()=>{
+    navfun();
 });
 
 window.addEventListener('resize',()=>{
     if(window.innerWidth >= 600){
-        mobileNav.style.display = "flex";
+        mobileNav.style.display = 'flex';
     }
  
 });

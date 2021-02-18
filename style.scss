@@ -207,7 +207,7 @@ body header {
     grid-gap: 20px;
     justify-items: center;
     .template-card {
-      background-color: var(--color-secondray);
+      // background-color: var(--color-secondray);
       overflow: hidden;
       position: relative;
       border-radius: 5px;
@@ -252,7 +252,7 @@ body header {
     }
     img {
       width: 100%;
-      height: auto;
+      height: 100%;
     }
     .template-card:hover:before,
     .template-card:hover .cta {
